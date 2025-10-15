@@ -16,12 +16,12 @@ A mini project that allows users to browse restaurants, view menus, and order fo
 
 Home page showing available restaurants
 
-<img width="1366" height="768" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/6f7178e1-d4c9-41c3-b194-174cd320c970" />
-<img width="1366" height="768" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/f3d9c0f8-101c-436d-b7d7-92e1f83aec63" />
-<img width="1366" height="768" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/e55c9335-6500-4ddb-bece-97c6478d3a69" />
-<img width="1366" height="768" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/9498ca3a-5747-428a-a37b-2021e161018d" />
-<img width="1366" height="768" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/a8ee3f0d-1cd8-4d71-9fcd-aa00415d6c68" />
-<img width="1366" height="768" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/6dcc1e8d-3005-43e9-a8fe-17a207ce91b4" />
+<img width="1366" height="768" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/22bdc463-2486-4560-9de5-7c58fcf5bf4a" />
+<img width="1366" height="768" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/4f84e1f8-144c-448d-92e5-7638f411a4a0" />
+<img width="1366" height="768" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/9f6f292f-34f4-4f2f-9adf-9d96977ebc0c" />
+<img width="1366" height="768" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/57042068-4e07-4f0a-959a-aa9aa0accf18" />
+<img width="1366" height="768" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/a240ebeb-80ac-4b55-b857-413628fe79c4" />
+<img width="1366" height="768" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/51ed1cb7-20c9-464e-ac49-d8faa2be50d8" />
 
 
 📄 License
