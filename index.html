@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyBite | CodingBihari</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--linking swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <!--Header / Navbar section-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">🥗 TastyBite</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a herf="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#review" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+             <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero Section-->
+        <section class="hero-section">
+            <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Best Food</h2>
+                <h3 class="subtitle">Make your day great with special food!</h3>
+                <p class="description">Welcome to TastyBite, where every dish tells a story and every bite bring joy. Exprience flavors crafted with love and made to delight your senses.</p>
+                <div class="buttons">
+                    <a herf="#" class="button order-now">Order Now</a>
+                    <a href="#" class="button contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+             <img src="Images/hero-food.png" alt="hero" class="hero-image">
+            </div>
+            </div>
+        </section>
+
+        <!--About Section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="Images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">Welcome to TastyBite your perfect destination for delightful flavors and unforgettable moments. Every dish we serve is crafted with passion fresh 
+                        ingredients and a sprinkle of love. From sizing starters to heartwarming main courses we bring you food that satisfies both your hunger and your heart.
+                        At TastyBite we believe good food has the power to bring people closer create memories and turn ordinary days into celebrations. Step in,
+                        take a seat and let your taste buds dance with happiness  because every bit here is made to make your day special.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands
+                        fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands
+                        fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands
+                        fa-twitter"></i></a>
+                     </div>
+                    </div>
+                 </div>
+        </section>
+    <!--Menu Section-->
+    <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+            <ul class="menu-list">
+            <li class="menu-item">
+                <img src="Images/breakfast.png" alt="idly-bada" class="menu-image">
+                <h3 class="name">Breakfast</h3>
+                <p class="text">Start your day the delicious way!
+                    Enjoy freshly made breakfast dishes.</p>
+            </li>
+
+            <li class="menu-item">
+                <img src="Images/pngegg.png" alt="hot food" class="menu-image">
+                <h3 class="name">Burger & French Fries</h3>
+                <p class="text">Freshy grilled, pefectly juicy, and full of flavor.</p>
+            </li>
+
+            <li class="menu-item">
+                <img src="Images/biryaani.png" alt="hydarabaadi biryani" class="menu-image">
+                <h3 class="name">Main Course</h3>
+                <p class="text">Bold spices, rich gravies, and unforgettable taste.The main course that makes every meal memorable.</p>
+            </li>
+
+            <li class="menu-item">
+                <img src="Images/gulab jamun.png" alt="Gulab jamun" class="menu-image">
+                <h3 class="name">Dessert</h3>
+                <p class="text">Soft, sweet, and simply irresistible Desserts that turn every bite into joy!</p>
+            </li>
+
+            <li class="menu-item">
+                <img src="Images/coffee.png" alt="coffee" class="menu-image">
+                <h3 class="name">Hot Beverages</h3>
+                <p class="text">Warm, rich, and irresistibly smooth.
+                    Coffee your daily dose of happiness in a cup!
+                </p>
+            </li>
+
+            <li class="menu-item">
+                <img src="Images/cold.png" alt="cold" class="menu-image">
+                <h3 class="name">Cold Beverages</h3>
+                <p class="text">Creamy shakes and Fizzy sodas to make you cool!</p>
+            </li>
+            </ul>
+        </div>
+    </section>
+    <section class="review-section" id="review">
+        <h2 class="section-title">Review</h2>
+        <div class="section-content">
+            <div class="slider-cotainer swiper">
+                <div class="slider-wrapper">
+                    <ul class="review-list swiper-wrapper">
+                        <li class="review">
+                            <img src="Images/john welson.jpg" alt="User" class="user-image">
+                            <h3 class="name">John Welson</h3>
+                            <i class="feedback">"Love the French roast. Perfectly balanced and rich. Will order again!"</i>
+                        </li>
+                        <li class="review swiper-slide">
+                            <img src="Images/souzika.jpg" alt="User" class="user-image">
+                            <h3 class="name">Souzika</h3>
+                            <i class="feedback">"Great espresso blend! Smooth and bold flavor. Fast shipping tool!"</i>
+                        </li>
+                        <li class="review swiper-slide">
+                            <img src="Images/rambabu.jpg" alt="User" class="user-image">
+                            <h3 class="name">Ram Babu</h3>
+                            <i class="feedback">"Excellent quality! Fresh beans and quick delivery. High recommend."</i>
+                        </li>
+                        <li class="review swiper-slide">
+                            <img src="Images/will jack.jpg" alt="User" class="user-image">
+                            <h3 class="name">Will Jack</h3>
+                            <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</i>
+                        </li>
+                        <li class="review swiper-slide">
+                            <img src="Images/Rose kelvin.jpg" alt="User" class="user-image">
+                            <h3 class="name">Rose Kelvin</h3>
+                            <i class="feedback">"Best decaf I've tried! Smooth and flovorful. Arrived prompty."</i>
+                        </li>
+                        <li class="review swiper-slide">
+                            <img src="Images/charlie puth.jpg" alt="User" class="user-image">
+                            <h3 class="name">Charlie Puth</h3>
+                            <i class="feedback">"Good dishes! Fresh and very testy!"</i>
+                        </li>
+                    </ul>
+                    <div class=" swiper-slide-button swiper-pagination"></div>
+                    <div class=" swiper-slide-button swiper-button-prev"></div>
+                    <div class=" swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--gallery section-->
+    <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="Images/coffee1.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Images/breakfast1.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Images/juice.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Images/northfood.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Images/fish.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Images/momos.jpg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--contact section-->
+    <section class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>Btm Layout 1st stage, zip-560001</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>anshukhg0303@gmail.com</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>782900468</p>
+                </li>
+                 <li class="contact-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                </li>
+                 <li class="contact-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Sunday: Closed</p>
+                </li>
+            </ul>
+
+            <from action="#" class="contact-form" id="contact">
+                <input type="text" placeholder="Your name" class="form-input" required>
+                <input type="email" placeholder="Your email" class="form-input" required>
+                <textarea placeholder="Your message" class="form-input" required></textarea>
+                <button class="submit-button">Submit</button>
+            </from>
+        </div>
+    </section>
+    <!--footer section-->
+    <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">© 2025 shop</p>
+            <div class="social-link-list">
+                       <a href="#" class="social-link"><i class="fa-brands
+                        fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands
+                        fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="seperator">.</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+        </div>
+    </footer>
+     </main>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="resturant.js"></script>
+</body>
+</html>
